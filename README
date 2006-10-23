@@ -1,0 +1,6 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1683
+
+Defines the following commands:
+  DarcsDiff shows the diff between the file in the current buffer and the Darcs version of that file
+  DarcsOff closes the diff view opened by DarcsDiff
+  DarcsChanges shows the changes to the file in the current buffer. 
