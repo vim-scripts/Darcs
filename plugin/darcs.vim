@@ -1,3 +1,15 @@
+"  darcs.vim: (global plugin) Darcs-related commands in vim
+"  Maintainer:  sylvain.joyeux@m4x.org
+"  Version:     0.2 for vim 7.0+
+"  URL:		http://www.vim.org/script.php?script_id=1683
+"
+" Documentation:
+"  Defines the following commands: 
+"    DarcsDiff  shows the diff between the file in the current buffer and the
+"		Darcs version of that file 
+"    DarcsOff   closes the diff view opened by DarcsDiff 
+"    DarcsChanges shows the changes to the file in the current buffer. 
+
 if exists("loaded_darcs")
     finish
 endif
